@@ -1,3 +1,42 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+    margin: 50px auto; 
+}
+h2{
+    color: #777;
+    margin-bottom: 5px;
+}
+h1{
+    font-size: 28px;
+    font-weight: bold;
+}
+p{
+    color: #777;
+    margin: 10px auto 30px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    text-align: right;
+    font-size: 30px;
+}
+
+
+
+
+
 .gizard{
     font-style: italic;
     text-align: center;
@@ -21,7 +60,7 @@
 img{
  height: 75px;
  width: 75px;
- border-left: -1000px;
+ border-left: -20px;
  
 }
 .z{
@@ -29,5 +68,6 @@ img{
     width: 360px;
     background-color: rgb(226, 221, 221);
     border-radius: 5%;
-    text-align: left;
+    text-align: left
+
 }
