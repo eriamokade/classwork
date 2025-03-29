@@ -2,7 +2,25 @@ body{
     text-align: center;
     margin: 0;
     padding: 0;
+    background-color: white
+
 }
+.Team-builder{
+    background-color: rgb(16, 141, 190);
+
+}
+.Supervisor{
+    background-color: aqua;
+}
+.Calculator{
+    background-color: aqua;
+}
+.Karma{
+    background-color: aqua;
+    
+}
+
+
 .container{
     background-color: white;
     width: 80%;
